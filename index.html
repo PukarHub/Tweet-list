@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Tweets into Storage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <h1 class="title">Pukar Tweet</h1>
+            <div class="row">
+                <div class="six columns">
+                  <label class="label" for="tweet">Tweet:</label>
+                  <form action="#" id="form">
+                      <!-- <label for="tweet"></label> -->
+                      <textarea class="textarea is-info is-normal" id="tweet" placeholder="type here" ></textarea>
+                      <input type="submit" class="button is-info is-fullwidth" value="Save Tweet">
+                  </form> 
+                </div>
+                <div class="six columns">
+                    <h2 class="subtitle">My Tweets:</h2>
+                    <div id="tweet-list"></div>
+
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

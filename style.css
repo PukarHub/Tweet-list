@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+h1, h2{
+    text-align: center;
+}
+
+.content {
+    margin-top: 40px ;
+}
+.button {
+    margin-top: 20px;
+}
+
+#tweet-list{
+   margin-left: 10rem;
+   /* list-style: none; */
+}
+
+.remove-tweet,
+.remove-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    padding-left: 5rem;
+}
+
+#tweet{
+   width: 50vh;
+}
